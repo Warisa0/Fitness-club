@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warisha's Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: url('a.jpg');
+        background-size:cover;
+       
+    }
+    .left{
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid red; */
+
+    }
+    .left img{
+        width: 30px;
+        height:30px;
+        margin: auto;
+        padding-left: 23px;
+        /* filter: invert(100%); */
+    }
+    .mid{
+        display: block;
+        width: 35%;
+        margin:20px auto;
+        /* border: 2px solid green; */
+
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+         /* top: 20px; */
+         bottom:20px;
+
+         
+        display: inline-block;
+        /* border: 2px solid rgb(51, 4, 51); */
+        
+
+    }
+    .btn{
+        
+    }
+    .navbar{
+        display: inline-block;
+        /* border:2px solid red; */
+        width:500px;
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 16px;
+    }
+    .navbar li a{
+        color:black;
+        text-decoration: none;
+        padding: 8px 8px;
+        /* font-size:15; */
+        font-family: cursive;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: blue;
+        background-color:brown;
+        border:2px solid red;
+        border-radius: 11px;
+       
+    }
+   .btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: aliceblue;
+    padding: 4px 8px;
+    border: 4px grey;
+    border-radius: 5px;
+    cursor: pointer;
+
+     
+   }
+   .btn:hover{
+    background-color: red;
+   }
+    .container{
+        /* border:2px solid red; */
+        margin: 100px 110px;
+        margin-left: 10px;
+        padding: 8px 2px;
+        padding-left: 10px;
+        border-radius: 4px;
+        width: 33%;
+    }
+    
+.form-group{
+    text-align: center;
+    display: block;
+    width: 200px;
+    padding: 1px;
+    /* border: 2px solid black; */
+    margin: 5px auto;
+    font-size: 25px;
+    /* border-radius: 5px; */
+    
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 55%;
+    margin: 8px auto;
+    margin-top: 20px;
+
+
+}
+</style>
+<body>
+          <header class="header">
+    <div class="left">
+       
+            <img src="gymm.jpg" alt="">
+            <div>harry fitness</div>
+
+        
+    </div>
+        
+           
+            
+        
+        <!-- left box for logo -->
+        <div class="mid">
+                
+                    <ul class="navbar">
+                       <li><a href="#" class="active">home</a></li>
+                       <li><a href="#">aboutUs</a></li>
+                       <li><a href="#">fitnessCalculator</a></li>
+                       <li><a href="#">contactUs</a></li>
+                    </ul>
+
+                    
+                </div>
+                <!-- mid box for navigation bar -->
+                <div class="right">
+                    <button class="btn">Call us now</button>
+                    <button class="btn">Email us now</button>
+                </div>
+                <!-- right box for search buttons -->
+                
+            </header>
+            <div class="container">
+                <h1>join best gym</h1>
+                <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name=""placeholder="enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name=""placeholder="enter your age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name=""placeholder="enter your gender">
+                </div>
+                <button class="btn">submit</button>
+                    </form>
+            </div>
+    
+</body>
+</html>
